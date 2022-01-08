@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install kabegami
+$ npm install @aahlw/kabegami
 ```
 
 ## Import
@@ -47,16 +47,16 @@ const { getWallpaper } = require('./index');
 
 ```js
 {
-  day: '2732', // The day of the wallpaper
-  title: 'Touhou', // The title of the wallpaper
-  url: 'https://i.imgur.com/YvW0ehx.jpg', // The url of the wallpaper
-  quality: '2160p', // The quality of the wallpaper
+  day: // The day of the wallpaper
+  title: // The title of the wallpaper
+  url: // The url of the wallpaper
+  quality: // The quality of the wallpaper
   credit: { 
-    name: 'つね', // The name of the artist
-    url: 'https://www.pixiv.net/en/artworks/95343311' // The url of the artist
+    name: // The name of the artist
+    url: // The url of the artist
   },
-  postedOn: 'January 7, 2022', // The date the wallpaper was posted
-  ping: 394 // Scrape and parse process time (MS)
+  postedOn: // The date the wallpaper was posted
+  ping: // Scrape and parse process time (MS)
 }
 ```
 
