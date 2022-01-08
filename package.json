@@ -1,0 +1,28 @@
+{
+  "name": "@aahlw/kabegami",
+  "version": "1.0.0",
+  "description": "A wallpaper a day keeps the sadness away",
+  "author": {
+    "name": "ahlw",
+    "email": "admin@ahlw.dev"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "url": "https://github.com/aahlw/kabegami.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aahlw/kabegami/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "keywords": [
+    "wallpaper",
+    "anime"
+  ]
+}
